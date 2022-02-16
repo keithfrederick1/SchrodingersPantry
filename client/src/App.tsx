@@ -1,12 +1,15 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import Search from './Search';
+import MealCard from './MealCard';
+import SearchYoutube from './SearchYoutube';
+
+
 const App: React.FC = (): JSX.Element => {
   return (
-    <div>
-      {' '}
-      What up World
+    <Fragment>
       <Search />
-    </div>
+      <MealCard />
+    </Fragment>
   );
 };
 
