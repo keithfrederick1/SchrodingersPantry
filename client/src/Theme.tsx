@@ -14,13 +14,13 @@ declare module '@mui/material/styles' {
 const light = {
   palette: {
     primary: {
-      main: '#D9A370',
-      light: '#FDDFB1',
-      dark: '#2b1914',
-      contrastText: '#2b1914',
+      main: '#F5FEFF', //whiteblue
+      light: '#D6EAF8',
+      dark: '#A9CCE3',
+      contrastText: '#2A3A34',
     },
     secondary: {
-      main: '#FDDFB1',
+      main: '#D6EAF8',
     },
   },
 };
@@ -29,12 +29,12 @@ const light = {
 const dark = {
   palette: {
     primary: {
-      main: '#3b211b',
-      dark: '#2b1914',
-      contrastText: '#FDDFB1',
+      main: '#34495E',
+      dark: '#A9CCE3',
+      contrastText: '#FFFFFF',
     },
     secondary: {
-      main: '#FDDFB1',
+      main: '#212F3D',
     },
   },
 };

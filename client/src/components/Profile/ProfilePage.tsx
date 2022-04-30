@@ -239,8 +239,8 @@ const ProfilePage: React.FC<Props> = ({
         }} //{onClick={handleCardClick}}
       >
         <CardHeader
-          title={`${user.userName.toUpperCase()}`}
-          titleTypographyProps={{ variant: 'h4' }}
+          title={`${user.userName}`}
+          titleTypographyProps={{ variant: 'h4', fontFamily:'Raleway' }}
           avatar={
             <Box
               sx={{

@@ -18,7 +18,7 @@ body {
   overflow: auto;
   height: 100vh;
   width: 100vw;
-  background-color: #3b211b !important;
+  background-color: #404d61 !important;
 }
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700');
 
@@ -305,12 +305,12 @@ body {
 
 .navbar-logo {
   color: black;
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Krona One', sans-serif;
   font-size: 2.5rem;
   margin-left: 10px;
   text-decoration: none;
-  text-shadow: 0.5px 1px 1px black, 0 0 25px rgb(240, 252, 255),
-    0 0 5px rgb(143, 143, 143);
+  text-shadow: 0.5px 1px 1px black, 0 0 12px rgb(240, 252, 255),
+    0 0 3px rgb(143, 143, 143);
 }
 
 .navbar-list {
@@ -329,7 +329,7 @@ body {
   border-width: 0px 0px 1px 0px;
   border-color: transparent;
   transition: 250ms;
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Krona One', sans-serif;
 }
 
 .navbar-link:hover {
@@ -355,9 +355,9 @@ body {
   bottom: 15%;
   right: 10%;
   color: white;
-  font-size: 4rem;
+  font-size: 6rem;
   padding: 15px;
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 .slider {
@@ -392,7 +392,8 @@ body {
 
 .slider-title {
   text-align: center;
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Raleway', sans-serif;
+  font-size: 3rem;
 }
 
 #story {

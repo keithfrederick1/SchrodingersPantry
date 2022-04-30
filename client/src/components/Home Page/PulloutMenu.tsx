@@ -250,7 +250,7 @@ const PulloutMenu: React.FC<Props> = ({ changeTheme }) => {
               className='navbar-logo'
               to={'/'}
             >
-              <span>Schrödinger's Pantry</span>
+              <span>schrödinger*s pantry</span>
             </Link>
           </Typography>
           <FormControl component='fieldset' style={{ marginLeft: 'auto' }}>
